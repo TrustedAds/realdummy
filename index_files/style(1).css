@@ -1,0 +1,291 @@
+/*
+Theme Name: Enfold Child
+Description: A <a href='http://codex.wordpress.org/Child_Themes'>Child Theme</a> for the Enfold Wordpress Theme. If you plan to do a lot of file modifications we recommend to use this Theme instead of the original Theme. Updating wil be much easier then.
+Version: 1.0
+Author: Kriesi
+Author URI: http://www.kriesi.at
+Template: enfold
+*/
+
+
+
+/*Add your own styles here:*/
+
+/* ----------------------------------------
+	<CUSTOM CSS STYLES>
+---------------------------------------- */
+
+/* Remove left-margin from testimonial name: */
+.avia-testimonial-meta { margin-left: 0; }
+
+#footer_form { padding:0; }
+
+.spacer { width: 100%; height: 100px; }
+
+/* ----------------------------------------
+	NEWSLETTER MC FORM
+---------------------------------------- */
+.mc4wp-form form{margin:0!important;clear:both}
+.mc4wp-form p br{display:none}
+.mc4wp-form label{display:block;visibility:visible;position:relative;margin-bottom:7px;font-weight:600}
+.mc4wp-form p{position:relative;clear:both;float:left;width:100%}
+.mc4wp-form p.hidden{position:absolute;width:0;left:0;top:0}
+.mc4wp-form .form_element_half{width:49.5%;float:left;margin-left:1%;clear:none}
+.mc4wp-form .form_element_third{width:32.6%;float:left;margin-left:1%;clear:none}
+.mc4wp-form .form_element_two_third{width:66.4%;float:left;margin-left:1%;clear:none}
+.mc4wp-form .form_element_fourth{width:24.2%;float:left;margin-left:1%;clear:none}
+.mc4wp-form .form_element_three_fourth{width:74.8%;float:left;margin-left:1%;clear:none}
+.mc4wp-form .first_form{clear:both;margin-left:0}
+@media only screen and (max-width: 479px) { .responsive .mc4wp-form .form_element{width:100%;clear:both;margin-right:0;margin-left:0;float:none} }
+#top .mc4wp-form input[type='text'],#top .mc4wp-form input[type='email'],#top .mc4wp-form select,#top .mc4wp-form textarea{width:100%;margin-bottom:0;display:inline;min-width:50px;padding:13px;border-radius:2px}
+#top .mc4wp-form select{-webkit-appearance:none;border-radius:0;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAANCAYAAAC+ct6XAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RjBBRUQ1QTQ1QzkxMTFFMDlDNDdEQzgyNUE1RjI4MTEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RjBBRUQ1QTU1QzkxMTFFMDlDNDdEQzgyNUE1RjI4MTEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpGMEFFRDVBMjVDOTExMUUwOUM0N0RDODI1QTVGMjgxMSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpGMEFFRDVBMzVDOTExMUUwOUM0N0RDODI1QTVGMjgxMSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pk5mU4QAAACUSURBVHjaYmRgYJD6////MwY6AyaGAQIspCieM2cOjKkIxCFA3A0TSElJoZ3FUCANxAeAWA6IOYG4iR5BjWwpCDQCcSnNgxoIVJCDFwnwA/FHWlp8EIpHSKoGgiggLkITewrEcbQO6mVAbAbE+VD+a3IsJTc7FQAxDxD7AbEzEF+jR1DDywtoCr9DbhwzDlRZDRBgACYqHJO9bkklAAAAAElFTkSuQmCC);background-position:center right;background-repeat:no-repeat;border-radius:2px}
+.mc4wp-form .button{margin:0;padding:16px 20px;border-radius:2px;border-bottom-width:1px;border-bottom-style:solid;font-weight:400;font-size:12px;min-width:142px;outline:none}
+.mc4wp-form .modified_width .button{width:100%;padding:13px 10px 14px;min-width:0}
+.mc4wp-form p input,.mc4wp-form p textarea,.mc4wp-form p select{-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+
+/* ----------------------------------------
+	OPT-IN BOX AT THE END OF EACH POST
+---------------------------------------- */
+/* av-sub-box */
+.av-sub-box{ 
+  padding: 20px; 
+  background: #F4F4F4; 
+  width:100%; 
+  clear:both; 
+  float:left; 
+  margin-top: 80px; 
+  border: 1px solid #e1e1e1;
+  margin-bottom: -40px; 
+  border-radius: 3px;
+}
+
+/* ----------------------------------------
+	ANIMATED BACKGROUNDS
+---------------------------------------- */
+@keyframes bg-gradient-1 {
+  to {
+    background-position: -800px 0;
+  }
+}
+
+#bg-gradient-1 {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(45deg, #ff0066, #ffff00);
+  background-size: 800% 800%;
+  /*   Hide text */
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: bg-gradient-1 10s ease infinite;
+  -moz-animation: bg-gradient-1 10s ease infinite;
+  animation: bg-gradient-1 10s ease infinite;
+}
+
+@-webkit-keyframes bg-gradient-1 {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes bg-gradient-1 {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes bg-gradient-1 {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+/*END BG-GRADIENT-1*/
+
+
+@keyframes anim-gradient {
+  to {
+    background-position: -800px 0;
+  }
+}
+
+.anim-gradient {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(45deg, #ff0066, #ffff00);
+  background-size: 800% 800%;
+  /*   Hide text */
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: anim-gradient 10s ease infinite;
+  -moz-animation: anim-gradient 10s ease infinite;
+  animation: anim-gradient 10s ease infinite;
+}
+
+@-webkit-keyframes anim-gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes anim-gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes anim-gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+.hero1 {
+  width: 100%;
+  height: 650px;
+  background: linear-gradient(315deg, #01193e, #003b68, #0075ad, #179ccf);
+  background-size: 800% 800%;
+  -webkit-animation: hero1 10s ease infinite;
+  -moz-animation: hero1 10s ease infinite;
+  animation: hero1 10s ease infinite;
+}
+
+@-webkit-keyframes hero1 {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes hero1 {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes hero1 {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+section.hero2 {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(45deg, #2f1847, #361f51, #5d3b7b, #a966ae);
+  background-size: 800% 800%;
+  -webkit-animation: hero2 10s ease infinite;
+  -moz-animation: hero2 10s ease infinite;
+  -o-animation: hero2 10s ease infinite;
+  animation: hero2 10s ease infinite;
+}
+
+@-webkit-keyframes hero2 {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes hero2 {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-o-keyframes hero2 {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes hero2 {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+#bg-gradient-2 {
+background-image: linear-gradient(90deg, rgb(232, 29, 98) 12%, rgb(255, 193, 7) 100%);
+background-image: -moz-linear-gradient(left, rgb(232, 29, 98) 12%, rgb(255, 193, 7) 100%);
+background-image: -webkit-linear-gradient(left, rgb(232, 29, 98) 12%, rgb(255, 193, 7) 100%);
+background-image: -o-linear-gradient(left, rgb(232, 29, 98) 12%, rgb(255, 193, 7) 100%);
+background-image: -ms-linear-gradient(left, rgb(232, 29, 98) 12%, rgb(255, 193, 7) 100%);
+}
+
